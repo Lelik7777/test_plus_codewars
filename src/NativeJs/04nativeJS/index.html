@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lesson_3</title>
+    <style>
+        .index04{
+            background-color: #7f7f7f;
+            border: 1px solid black;
+            margin: 50px;
+            width: 900px;
+            height: 500px;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+        }
+        .div1{
+            background-color: #61dafb;
+            border: 1px solid black;
+        }
+        .div2{
+            background-color: #000066;
+            border: 1px solid black;
+        }.div3{
+            background-color: #006600;
+            border: 1px solid black;
+        }
+         .index04 div:nth-child(2){
+             margin: 20px;
+             opacity: 0.1;
+         }
+         .index04 div:nth-child(3){
+
+         }
+.div1OnClick{
+    margin: 20px;
+}
+    </style>
+
+</head>
+<body>
+<div class="index04">
+
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3" ></div>
+</div>
+
+    <script src="04.js"></script>
+<script >
+document.body.style.backgroundColor='red';
+setTimeout(()=>document.body.style.backgroundColor='',3000);
+let i=0;
+if(i)
+alert(i);
+
+</script>
+</body>
+</html>

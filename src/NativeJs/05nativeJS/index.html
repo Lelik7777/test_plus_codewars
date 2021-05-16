@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lesson_3</title>
+    <style>
+        .main{
+            background-color: #006600;
+            height: 100px;
+            position: relative;
+        }
+        .span{
+           background-color: #000066;
+            position: absolute;
+            top:45%;
+            left: 50%;
+        }
+        .list{
+            text-decoration: underline;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <script src="05.js"></script>
+
+<div class="main">
+    <span class="span">head</span>
+</div>
+    <form action="" name="myForm" >
+        <input type="text" name="myInput" value="text in input" onclick="showValueInput(this.form)">
+    </form>
+    <ul class="list">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <script>
+        function showValueInput(form){
+            console.log(form['myInput'].value)
+        }
+    </script>
+</body>
+</html>
