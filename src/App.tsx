@@ -1,24 +1,23 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
-import {User} from './onClick';
+import {List} from './Archarov/List';
+import {List2} from './Archarov/List2';
 
-const manS = {
-    title: 'specialist',
-    man: {
-        name: 'alex',
-        age: 32,
-    },
-    lesson: [{title:'1'},{title: '2'}],
-    food:['milk','bread'],
-}
 
 function App() {
-    return (
-        <div className="App">
-            <User/>
-           {/* <ManComponent man={manS.man} title={manS.title} lesson={manS.lesson} food={manS.food} />*/}
-        </div>
-    );
+    const [visible, setVisible] = useState<boolean>(true);
+
+    function hide() {
+        setVisible(vis => !vis);
+    }
+
+    return <div style={{overflow: 'scroll'}}>
+        {visible && <List/>}
+        {visible&&<List2/>}
+        <button onClick={hide}>toggle</button>
+
+    </div>
+
 }
 
 export default App;

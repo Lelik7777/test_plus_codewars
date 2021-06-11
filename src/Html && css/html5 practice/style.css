@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    font-family: Tahoma, sans-serif;
+    margin: 5px;
+}
+
+.site-header {
+    text-align: center;
+    background-color: #61dafb;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #004444;
+}
+
+.wrapper {
+
+}
+
+.sidebar {
+    float: left;
+    width: 18%;
+    margin-right: 2%;
+    background-color: #0074D9;
+
+}
+
+.sidebar a {
+    text-decoration: none;
+
+}
+.sidebar a:hover{
+    margin-left: 10px;
+    color: gold;
+}
+.main {
+    float: left;
+    width: 58%;
+    margin-right: 2%;
+    background-color: #7f7f7f;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    background-color: #006600;
+    text-align: center;
+}
+
+aside img {
+    width: 90%;
+    text-align: center;
+}

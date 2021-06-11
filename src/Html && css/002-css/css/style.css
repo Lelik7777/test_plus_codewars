@@ -1,0 +1,25 @@
+h1 {
+    color: #0074D9;
+}
+
+html {
+    background-color: #61dafb;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 12px ;
+}
+.yellow{
+    color: #006600;
+    background-color: yellowgreen;
+}
+.white{
+    color: wheat;
+    background-color: black;
+}
+span{
+    text-transform: uppercase;
+}

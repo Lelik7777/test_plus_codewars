@@ -1,0 +1,91 @@
+.test {
+    height: 50px;
+    width: 50px;
+    background-color: #7f7f7f;
+    /* position: fixed;
+     top: 200px;
+     bottom: 50px;
+     right: 50px;
+     left: 50px;*/
+    position: relative;
+    bottom: 20px;
+    left: 100px;
+
+}
+
+input[type='checkbox'] {
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+input[type=text] {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.rect {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 50px;
+    position: relative;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    border: 1px solid royalblue;
+    background-color: #006600;
+
+}
+
+.p1 {
+    position: absolute;
+    left: 50px;
+    right: 20px;
+}
+
+p {
+
+    background-color: #004444;
+}
+.clearfix{
+    width: 100%;
+    clear: both;
+}
+.one {
+    width: 50px;
+    height: 50px;
+    background-color: #61dafb;
+    float: left;
+
+}
+.two {
+    width: 150px;
+    height: 150px;
+    background-color:firebrick;
+float: left;
+}
+ .parent{
+     padding: 30px;
+     background-color: #888888;
+ }
+.three {
+    width: 50px;
+    height: 100px;
+    background-color: #61dafb;
+    margin-left: 10px;
+    float: left;
+}
+.wrapper{
+    background-color: #888888;
+    padding: 5px;
+}
+.block{
+    width: 18%;
+    background-color: #0074D9;
+    float: left;
+    min-height: 100px;
+    margin: 1%;
+}
