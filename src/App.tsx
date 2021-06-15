@@ -1,23 +1,27 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
-import {List} from './Archarov/List';
-import {List2} from './Archarov/List2';
+import {List7} from './Archarov/Hooks/List7';
+
 
 
 function App() {
-    const [visible, setVisible] = useState<boolean>(true);
+    //const [visible, setVisible] = useState<boolean>(true);
 
-    function hide() {
+  /*  function hide() {
         setVisible(vis => !vis);
-    }
+    }*/
 
-    return <div style={{overflow: 'scroll'}}>
-        {visible && <List/>}
-        {visible&&<List2/>}
-        <button onClick={hide}>toggle</button>
-
+    return <div style={{ margin: '20px',display:'flex'}}>
+       {/* {visible && <List/>}*/}
+         {/*<List2 title={'hello'}/>*/}
+        {/*  <button onClick={hide}>toggle</button>*/}
+       {/* <List3ClassComp/>
+        <List4FuncComp/>*/}
+       {/* <List5/>*/}
+        <List7/>
     </div>
 
 }
 
 export default App;
+
