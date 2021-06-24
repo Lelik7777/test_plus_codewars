@@ -5,7 +5,7 @@ export const List5: React.FC<any> = ({}) => {
     const initCount = 0;
     const [count, setCount] = React.useState<number>(initCount);
     const refCount = React.useRef<number>(initCount);
-    const refIdTime=React.useRef<any>(null);
+    const refIdTime = React.useRef<any>(null);
     React.useEffect(() => {
         refCount.current = count;
     });
